@@ -1,0 +1,10 @@
+shell -${SHELL}
+defscrollback 4096
+startup_message off
+autodetach on
+vbell off
+caption splitonly
+caption string "%{= kb}%50=%{= kb}"
+hardstatus alwayslastline "%{= kw}%{+b kr} %{= kw}%?%-Lw%?%{+b kw}%n*%t%f %?(%u)%?%{= kw}%?%+Lw%? %-=%{kb} %c  %d.%m.%Y"
+activity "activity in %n (%t) [%w:%s]~"
+bind X lockscreen
